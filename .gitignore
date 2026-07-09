@@ -1,0 +1,23 @@
+# Dados brutos / gerados
+data/*.pdf
+data/*.txt
+data/*.json
+data/ocr_cache/
+!data/.gitkeep
+
+# FAISS index
+faiss_index/
+*.index
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
